@@ -8,6 +8,7 @@ import NavBar from './components/NavBar.jsx';
 import BreadCrumb from './components/Breadcrumb';
 import Images from './components/Images';
 import SnackBar from './components/SnackBar';
+import Footer from './components/Footer.jsx';
 
 function App() {
   const [data, setData] = useState([]);
@@ -44,6 +45,7 @@ function App() {
       <BreadCrumb onTextChange={onTextChange} onCountChange={onCountChange}/>
       <Images data={data}/>
       <SnackBar open={open} toggleSnack={toggleSnack} />
+      <Footer/>
     </div>
   );
 }

@@ -1,6 +1,5 @@
 
 import { Card, styled } from '@mui/material';
-
 const StyledImage = styled('img')({
         height: 300,
         width: '100%',
@@ -12,9 +11,10 @@ const Image = ({ image }) => {
     
     return (
         <Card>
-            <StyledImage src={image.largeImageURL} alt={image.user} />
+            <StyledImage src={image.largeImageURL} alt={image.user} download/>
         </Card>
     )
 }
 
 export default Image;
+

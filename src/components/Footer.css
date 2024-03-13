@@ -1,0 +1,19 @@
+.container{
+    text-align: center;
+    background-color: aquamarine;
+    position: static;
+}
+.dil{
+    font-size: 20px;
+    color: red;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: underline;
+}
+.git{
+    font-size: 20px;
+}

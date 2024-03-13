@@ -22,6 +22,7 @@ const BreadCrumb = ({ onTextChange, onCountChange }) => {
                 type="number"
             />
         </Component>
+        
     )
 }
 
